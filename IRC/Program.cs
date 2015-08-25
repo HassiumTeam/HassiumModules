@@ -6,59 +6,45 @@ namespace IRCLib
 {
 	public class Program : ILibrary
 	{
-		public Dictionary<string, InternalFunction> GetFunctions()
-		{
-			Dictionary<string, InternalFunction> result = new Dictionary<string, InternalFunction>();
-			result.Add("newirc", new InternalFunction(Program.NewIRC));
-	            	result.Add("ircconnect", new InternalFunction(Program.IRCConnect));
-        	    	result.Add("ircjoin", new InternalFunction(Program.IRCJoin));
-	            	result.Add("ircget", new InternalFunction(Program.IRCGet));
-        	    	result.Add("ircsend", new InternalFunction(Program.IRCSend));
-	            	result.Add("ircmsgmsg", new InternalFunction(Program.IRCMsgMsg));
-        	    	result.Add("ircmsgchan", new InternalFunction(Program.IRCMsgChan));
-	            	result.Add("ircmsgsender", new InternalFunction(Program.IRCMsgSender));
-
-			return result;
-		}
-
-	        public static object NewIRC(object[] args)
+				[IntFunc("newirc")]
+				public static object NewIRC(object[] args)
             	{
                 	return new IRC(args[0].ToString(), Convert.ToInt32(args[1]), args[2].ToString(), args[3].ToString());
             	}
-
+				[IntFunc("ircconnect")]
             	public static object IRCConnect(object[] args)
             	{
                 	((IRC)(args[0])).Connect();
                 	return null;
             	}
-
+				[IntFunc("ircjoin")]
             	public static object IRCJoin(object[] args)
             	{
                 	((IRC)(args[0])).Join(args[0].ToString());
                 	return null;
             	}
-
+				[IntFunc("ircget")]
             	public static object IRCGet(object[] args)
             	{
                 	return((IRC)(args[0])).GetMessage();
             	}
-
+				[IntFunc("ircsend")]
             	public static object IRCSend(object[] args)
             	{
                 	((IRC)(args[0])).SendRaw(arrayToString(args, 1));
                 	return null;
             	}
-
+				[IntFunc("ircmsgmsg")]
             	public static object IRCMsgMsg(object[] args)
             	{
                 	return ((IRCMessage)(args[0])).Message;
             	}
-
+				[IntFunc("ircmsgchan")]
             	public static object IRCMsgChan(object[] args)
             	{
                 	return ((IRCMessage)(args[0])).Channel;
             	}
-
+				[IntFunc("ircmsgsender")]
             	public static object IRCMsgSender(object[] args)
             	{
                 	return ((IRCMessage)(args[0])).Sender;
