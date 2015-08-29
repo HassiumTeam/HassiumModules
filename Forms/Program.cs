@@ -16,6 +16,14 @@ namespace FormsModule
 			return myForm;
 		}
 
+		[IntFunc("formclose")]
+		public static object FormClose(object[] args)
+		{
+			((Form)args[0]).Close();
+		
+			return null;
+		}
+
 		[IntFunc("messagebox")]
 		public static object MessageBox(object[] args)
 		{
