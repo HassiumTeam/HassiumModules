@@ -11,7 +11,7 @@ namespace FormsModule
 		{
 			Form myForm = new Form();
 			myForm.Text = args[0].ToString();
-			myForm.Show();
+			myForm.ShowDialog();
 
 			return myForm;
 		}
@@ -35,9 +35,8 @@ namespace FormsModule
 		[IntFunc("formadd")]
 		public static object FormAdd(object[] args)
 		{
-			Form myForm = ((Form)args[0]);
-			myForm.Controls.Add(((Control)args[1]));
-
+			((Form)args[0]).Controls.Add(((Control)args[1]));
+			((Form)args[0]).Refresh();
 			return null;
 		}
 
