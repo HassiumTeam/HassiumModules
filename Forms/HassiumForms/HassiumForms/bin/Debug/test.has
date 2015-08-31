@@ -1,0 +1,10 @@
+$IMPORT HassiumForms.dll$
+
+func main() {
+	myForm := new Form("My basic form");
+	myLabel := new Label("Test label");
+	myForm.add(myLabel);
+	myForm.show();
+	input();
+	myLabel.text("New text");
+}

@@ -1,0 +1,6 @@
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/bin/Debug/Hassium.exe
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/bin/Debug/HassiumForms.dll.mdb
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/bin/Debug/HassiumForms.dll
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/obj/Debug/HassiumForms.dll
+/home/jacob/HassiumModules/Forms/HassiumForms/HassiumForms/obj/Debug/HassiumForms.dll.mdb

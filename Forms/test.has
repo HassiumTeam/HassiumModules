@@ -1,8 +1,0 @@
-$IMPORT Forms.dll$
-
-func main() {
-	myForm := newform("My test form");
-	formadd(myForm, label("Yo"));
-	input();
-	formclose(myForm);
-}
