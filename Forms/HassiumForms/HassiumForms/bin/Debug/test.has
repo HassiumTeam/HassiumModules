@@ -1,0 +1,11 @@
+use "HassiumForms.dll";
+
+func main() {
+	myForm = new Form("My basic form");
+	myLabel = new Label("Test label");
+	myForm.controls.add(myLabel);
+	myLabel.text = "New text";
+	myForm.show();
+	println("a");
+	myLabel.text = "New text 2";
+}

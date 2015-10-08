@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="HassiumForms/HassiumForms.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HassiumForms/MyClass.cs">
+    <Files>
+      <File FileName="HassiumForms/MyClass.cs" Line="6" Column="28" />
+      <File FileName="HassiumForms/HassiumForm.cs" Line="21" Column="78" />
+      <File FileName="HassiumForms/HassiumControl.cs" Line="11" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

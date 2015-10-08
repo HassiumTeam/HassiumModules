@@ -1,0 +1,9 @@
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\bin\Debug\HassiumForms.dll
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\bin\Debug\HassiumForms.pdb
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\bin\Debug\Hassium.exe
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\bin\Debug\Hassium.pdb
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\obj\Debug\HassiumForms.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\obj\Debug\HassiumForms.dll
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\obj\Debug\HassiumForms.pdb
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\obj\Debug\HassiumForms.Form1.resources
+D:\Documents\GitHub\HassiumModules\Forms\HassiumForms\HassiumForms\obj\Debug\HassiumForms.csproj.GenerateResource.Cache
