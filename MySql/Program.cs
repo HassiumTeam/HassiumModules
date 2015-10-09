@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
 using Hassium;
+using Hassium.Functions;
+using Hassium.HassiumObjects;
 
 namespace MySqlLib
 {
