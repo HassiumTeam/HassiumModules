@@ -49,7 +49,7 @@ namespace MySqlLib
 		param.Value = lits[x].ToString();
 		command.Parameters.Add(param);
 	    }
-	    Console.WriteLine(command.CommandText);
+	    // Console.WriteLine(command.CommandText);
 
 
 
