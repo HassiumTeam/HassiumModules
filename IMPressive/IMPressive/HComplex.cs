@@ -75,22 +75,22 @@ namespace IMPressive
 
         public HassiumObject Add(HassiumObject[] args)
         {
-            return new HComplex(args.Select(x => x.HComplex().Value).Sum() + Value);
+            return new HComplex(Value + args[0].HComplex().Value);
         }
 
         public HassiumObject Substract(HassiumObject[] args)
         {
-            return new HComplex(Value - args.Select(x => x.HComplex().Value).Sum());
+            return new HComplex(Value - args[0].HComplex().Value);
         }
 
         public HassiumObject Multiply(HassiumObject[] args)
         {
-            return new HComplex(Value * args.Select(x => x.HComplex().Value).Aggregate(Complex.One, (x, y) => x * y));
+            return new HComplex(Value * args[0].HComplex().Value);
         }
 
         public HassiumObject Divide(HassiumObject[] args)
         {
-            return new HComplex(Value * args.Select(x => 1 / x.HComplex().Value).Aggregate(Complex.One, (x, y) => x * y));
+            return new HComplex(Value / args[0].HComplex().Value);
         }
 
         public Complex Value { get; private set; }
